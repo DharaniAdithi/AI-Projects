@@ -1,0 +1,480 @@
+{"level":"info","timestamp":"2026-05-10T09:35:23.882+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T09:35:23.884+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T09:35:23.967+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T09:35:23.967+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T09:35:24.208+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T09:35:24.208+0530","service":"booking-service","caller":"handlers/routes.go:67","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T09:35:24.208+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T09:44:26.768+0530","service":"booking-service","caller":"handlers/Booking_handler.go:38","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T09:44:26.768+0530","service":"booking-service","caller":"services/Booking_service.go:36","message":"Creating new booking","guest_id":101,"room_id":205}
+{"level":"info","timestamp":"2026-05-10T09:44:26.769+0530","service":"booking-service","caller":"repository/Booking_repository.go:39","message":"Creating new booking","guest_id":101,"room_id":205}
+{"level":"info","timestamp":"2026-05-10T09:44:26.805+0530","service":"booking-service","caller":"repository/Booking_repository.go:49","message":"Booking created successfully","booking_uuid":"08217ac3-8ebc-467f-92f2-cec9cdb90d0e"}
+{"level":"info","timestamp":"2026-05-10T09:44:26.805+0530","service":"booking-service","caller":"services/Booking_service.go:73","message":"Booking created successfully","booking_uuid":"08217ac3-8ebc-467f-92f2-cec9cdb90d0e"}
+{"level":"info","timestamp":"2026-05-10T09:55:18.975+0530","service":"booking-service","caller":"handlers/Booking_handler.go:38","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T09:55:18.976+0530","service":"booking-service","caller":"services/Booking_service.go:36","message":"Creating new booking","guest_id":101,"room_id":205}
+{"level":"info","timestamp":"2026-05-10T09:55:18.976+0530","service":"booking-service","caller":"repository/Booking_repository.go:39","message":"Creating new booking","guest_id":101,"room_id":205}
+{"level":"info","timestamp":"2026-05-10T09:55:19.004+0530","service":"booking-service","caller":"repository/Booking_repository.go:49","message":"Booking created successfully","booking_uuid":"1e828187-7b34-4c7d-9518-bc375dea8afe"}
+{"level":"info","timestamp":"2026-05-10T09:55:19.005+0530","service":"booking-service","caller":"services/Booking_service.go:73","message":"Booking created successfully","booking_uuid":"1e828187-7b34-4c7d-9518-bc375dea8afe"}
+{"level":"info","timestamp":"2026-05-10T09:55:31.692+0530","service":"booking-service","caller":"handlers/Booking_handler.go:38","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T09:55:31.693+0530","service":"booking-service","caller":"services/Booking_service.go:36","message":"Creating new booking","guest_id":101,"room_id":205}
+{"level":"info","timestamp":"2026-05-10T09:55:31.693+0530","service":"booking-service","caller":"repository/Booking_repository.go:39","message":"Creating new booking","guest_id":101,"room_id":205}
+{"level":"info","timestamp":"2026-05-10T09:55:31.702+0530","service":"booking-service","caller":"repository/Booking_repository.go:49","message":"Booking created successfully","booking_uuid":"7019858f-c21d-427d-88d9-4a4773662902"}
+{"level":"info","timestamp":"2026-05-10T09:55:31.703+0530","service":"booking-service","caller":"services/Booking_service.go:73","message":"Booking created successfully","booking_uuid":"7019858f-c21d-427d-88d9-4a4773662902"}
+{"level":"info","timestamp":"2026-05-10T10:00:56.441+0530","service":"booking-service","caller":"handlers/Booking_handler.go:78","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T10:00:56.442+0530","service":"booking-service","caller":"services/Booking_service.go:83","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T10:00:56.442+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T10:00:56.446+0530","service":"booking-service","caller":"repository/Booking_repository.go:75","message":"Bookings fetched successfully","count":3}
+{"level":"info","timestamp":"2026-05-10T10:00:56.447+0530","service":"booking-service","caller":"services/Booking_service.go:101","message":"All bookings fetched successfully","count":3}
+{"level":"info","timestamp":"2026-05-10T10:35:00.810+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T10:35:00.812+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T10:35:00.882+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T10:35:00.882+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"error","timestamp":"2026-05-10T10:35:01.148+0530","service":"booking-service","caller":"database/migration.go:18","message":"Failed to run auto migration","error":"ERROR: column \"user_id\" of relation \"bookings\" contains null values (SQLSTATE 23502)"}
+{"level":"error","timestamp":"2026-05-10T10:35:01.149+0530","service":"booking-service","caller":"server/server.go:52","message":"Failed to run database migrations","error":"ERROR: column \"user_id\" of relation \"bookings\" contains null values (SQLSTATE 23502)"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.205+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.206+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.406+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.407+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.528+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.528+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.529+0530","service":"booking-service","caller":"services/Booking_service.go:333","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T10:37:50.529+0530","service":"booking-service","caller":"repository/Booking_repository.go:240","message":"Seeding users and rooms"}
+{"level":"error","timestamp":"2026-05-10T10:37:50.531+0530","service":"booking-service","caller":"repository/Booking_repository.go:245","message":"Failed to seed user","error":"ERROR: relation \"users\" does not exist (SQLSTATE 42P01)"}
+{"level":"error","timestamp":"2026-05-10T10:37:50.531+0530","service":"booking-service","caller":"services/Booking_service.go:336","message":"Failed to seed data","error":"Failed to seed users"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.531+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T10:37:50.532+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T10:40:46.899+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T10:40:46.900+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T10:40:46.966+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T10:40:46.967+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.064+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.066+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.066+0530","service":"booking-service","caller":"services/Booking_service.go:333","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T10:40:47.066+0530","service":"booking-service","caller":"repository/Booking_repository.go:240","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.078+0530","service":"booking-service","caller":"repository/Booking_repository.go:264","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.079+0530","service":"booking-service","caller":"services/Booking_service.go:345","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.079+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T10:40:47.079+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T10:56:11.821+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:56:11.822+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:56:11.825+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T10:56:11.827+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T10:56:11.827+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:56:11.829+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:56:11.833+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T10:56:11.833+0530","service":"booking-service","caller":"services/Booking_service.go:153","message":"Booking created successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T10:56:24.727+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:56:24.728+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:56:24.730+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T10:56:24.757+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":false}
+{"level":"warn","timestamp":"2026-05-10T10:56:24.757+0530","service":"booking-service","caller":"services/Booking_service.go:105","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:56:45.183+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:56:45.184+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":999,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T10:56:45.186+0530","service":"booking-service","caller":"services/Booking_service.go:52","message":"User not found","user_id":999}
+{"level":"info","timestamp":"2026-05-10T10:57:08.826+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:57:08.827+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":999}
+{"level":"warn","timestamp":"2026-05-10T10:57:08.829+0530","service":"booking-service","caller":"services/Booking_service.go:73","message":"Room not found","room_id":999}
+{"level":"info","timestamp":"2026-05-10T10:57:31.392+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:57:31.392+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:57:31.395+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T10:57:31.396+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":false}
+{"level":"warn","timestamp":"2026-05-10T10:57:31.396+0530","service":"booking-service","caller":"services/Booking_service.go:105","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:58:00.732+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:58:00.733+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":2,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:58:00.735+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T10:58:00.736+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":false}
+{"level":"warn","timestamp":"2026-05-10T10:58:00.737+0530","service":"booking-service","caller":"services/Booking_service.go:105","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-10T10:58:26.450+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:58:26.451+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T10:58:26.453+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T10:59:05.913+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:59:05.913+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T10:59:05.916+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T10:59:11.629+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T10:59:11.630+0530","service":"booking-service","caller":"handlers/Booking_handler.go:61","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-10T10:59:29.924+0530","service":"booking-service","caller":"handlers/Booking_handler.go:79","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T10:59:29.924+0530","service":"booking-service","caller":"services/Booking_service.go:163","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T10:59:29.925+0530","service":"booking-service","caller":"repository/Booking_repository.go:69","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-10T10:59:29.928+0530","service":"booking-service","caller":"repository/Booking_repository.go:92","message":"Bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T10:59:29.929+0530","service":"booking-service","caller":"services/Booking_service.go:181","message":"All bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:00:00.727+0530","service":"booking-service","caller":"handlers/Booking_handler.go:90","message":"Received request to get booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:00:00.728+0530","service":"booking-service","caller":"services/Booking_service.go:194","message":"Fetching booking by UUID","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:00:00.728+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"error","timestamp":"2026-05-10T11:00:00.731+0530","service":"booking-service","caller":"repository/Booking_repository.go:101","message":"Failed to fetch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479","error":"record not found"}
+{"level":"error","timestamp":"2026-05-10T11:00:00.732+0530","service":"booking-service","caller":"services/Booking_service.go:198","message":"Failed to fetch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479","error":"Booking not found"}
+{"level":"info","timestamp":"2026-05-10T11:00:08.499+0530","service":"booking-service","caller":"handlers/Booking_handler.go:79","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:00:08.499+0530","service":"booking-service","caller":"services/Booking_service.go:163","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:00:08.500+0530","service":"booking-service","caller":"repository/Booking_repository.go:69","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-10T11:00:08.502+0530","service":"booking-service","caller":"repository/Booking_repository.go:92","message":"Bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:00:08.502+0530","service":"booking-service","caller":"services/Booking_service.go:181","message":"All bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:00:49.302+0530","service":"booking-service","caller":"handlers/Booking_handler.go:90","message":"Received request to get booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:00:49.303+0530","service":"booking-service","caller":"services/Booking_service.go:194","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:00:49.303+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:00:49.305+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:00:49.305+0530","service":"booking-service","caller":"services/Booking_service.go:209","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:01:14.089+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:14.090+0530","service":"booking-service","caller":"handlers/Booking_handler.go:157","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-10T11:01:31.257+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:31.258+0530","service":"booking-service","caller":"services/Booking_service.go:219","message":"Patching booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:31.258+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"error","timestamp":"2026-05-10T11:01:31.262+0530","service":"booking-service","caller":"repository/Booking_repository.go:101","message":"Failed to fetch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479","error":"record not found"}
+{"level":"error","timestamp":"2026-05-10T11:01:31.262+0530","service":"booking-service","caller":"services/Booking_service.go:224","message":"Booking not found for patch","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:33.680+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:33.681+0530","service":"booking-service","caller":"services/Booking_service.go:219","message":"Patching booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:33.681+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"error","timestamp":"2026-05-10T11:01:33.682+0530","service":"booking-service","caller":"repository/Booking_repository.go:101","message":"Failed to fetch booking","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479","error":"record not found"}
+{"level":"error","timestamp":"2026-05-10T11:01:33.683+0530","service":"booking-service","caller":"services/Booking_service.go:224","message":"Booking not found for patch","booking_uuid":"f47ac10b-58cc-4372-a567-0e02b2c3d479"}
+{"level":"info","timestamp":"2026-05-10T11:01:51.305+0530","service":"booking-service","caller":"handlers/Booking_handler.go:79","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:01:51.305+0530","service":"booking-service","caller":"services/Booking_service.go:163","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:01:51.306+0530","service":"booking-service","caller":"repository/Booking_repository.go:69","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-10T11:01:51.308+0530","service":"booking-service","caller":"repository/Booking_repository.go:92","message":"Bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:01:51.308+0530","service":"booking-service","caller":"services/Booking_service.go:181","message":"All bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:02:03.921+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:03.921+0530","service":"booking-service","caller":"services/Booking_service.go:219","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:03.921+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:03.923+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:03.923+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:03.954+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:03.955+0530","service":"booking-service","caller":"services/Booking_service.go:273","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.522+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.523+0530","service":"booking-service","caller":"services/Booking_service.go:219","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.523+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.525+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.525+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.532+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:34.533+0530","service":"booking-service","caller":"services/Booking_service.go:273","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.434+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.435+0530","service":"booking-service","caller":"services/Booking_service.go:219","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.435+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.437+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.437+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.445+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:37.445+0530","service":"booking-service","caller":"services/Booking_service.go:273","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:02:45.992+0530","service":"booking-service","caller":"handlers/Booking_handler.go:79","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:02:45.992+0530","service":"booking-service","caller":"services/Booking_service.go:163","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:02:45.993+0530","service":"booking-service","caller":"repository/Booking_repository.go:69","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-10T11:02:45.995+0530","service":"booking-service","caller":"repository/Booking_repository.go:92","message":"Bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-10T11:02:45.995+0530","service":"booking-service","caller":"services/Booking_service.go:181","message":"All bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-10T11:04:33.299+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:04:33.300+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:04:33.302+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T11:04:33.304+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:04:33.304+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:04:33.305+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:04:33.313+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:04:33.313+0530","service":"booking-service","caller":"services/Booking_service.go:153","message":"Booking created successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:05:23.710+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:05:23.710+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:05:23.712+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.047+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.048+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.114+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.114+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.459+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.459+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.459+0530","service":"booking-service","caller":"services/Booking_service.go:334","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T11:10:29.459+0530","service":"booking-service","caller":"repository/Booking_repository.go:240","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.461+0530","service":"booking-service","caller":"repository/Booking_repository.go:264","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.461+0530","service":"booking-service","caller":"services/Booking_service.go:346","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.461+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:10:29.461+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T11:10:38.099+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:10:38.100+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:10:38.104+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:11:10.203+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:11:10.204+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:11:10.205+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:11:12.552+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:11:12.553+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:11:12.555+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.552+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.554+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.618+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.618+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.798+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.799+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.799+0530","service":"booking-service","caller":"services/Booking_service.go:335","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T11:11:23.799+0530","service":"booking-service","caller":"repository/Booking_repository.go:240","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.802+0530","service":"booking-service","caller":"repository/Booking_repository.go:264","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.803+0530","service":"booking-service","caller":"services/Booking_service.go:347","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.803+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:11:23.803+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T11:11:29.898+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:11:29.899+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:11:29.904+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:11:32.994+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:11:32.994+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:11:32.995+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:15:22.758+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T11:15:22.759+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T11:15:22.818+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T11:15:22.818+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.030+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.031+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.062+0530","service":"booking-service","caller":"services/Booking_service.go:334","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T11:15:23.062+0530","service":"booking-service","caller":"repository/Booking_repository.go:240","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.065+0530","service":"booking-service","caller":"repository/Booking_repository.go:264","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.065+0530","service":"booking-service","caller":"services/Booking_service.go:346","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.065+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:15:23.065+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T11:15:30.420+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:15:30.420+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-10T11:15:30.423+0530","service":"booking-service","caller":"services/Booking_service.go:85","message":"Invalid booking date format","booking_date":"15-05-2026"}
+{"level":"info","timestamp":"2026-05-10T11:15:52.147+0530","service":"booking-service","caller":"handlers/Booking_handler.go:79","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:15:52.147+0530","service":"booking-service","caller":"services/Booking_service.go:164","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:15:52.147+0530","service":"booking-service","caller":"repository/Booking_repository.go:69","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-10T11:15:52.150+0530","service":"booking-service","caller":"repository/Booking_repository.go:92","message":"Bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:15:52.150+0530","service":"booking-service","caller":"services/Booking_service.go:182","message":"All bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-10T11:17:28.672+0530","service":"booking-service","caller":"handlers/Booking_handler.go:118","message":"Received request to patch booking","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:17:28.673+0530","service":"booking-service","caller":"services/Booking_service.go:220","message":"Patching booking","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:17:28.674+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:17:28.676+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:17:28.676+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:17:28.686+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:17:28.687+0530","service":"booking-service","caller":"services/Booking_service.go:274","message":"Booking patched successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.423+0530","service":"booking-service","caller":"handlers/Booking_handler.go:179","message":"Received request to cancel booking","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.424+0530","service":"booking-service","caller":"services/Booking_service.go:284","message":"Cancelling booking","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.424+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.426+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.426+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.435+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:10.435+0530","service":"booking-service","caller":"services/Booking_service.go:324","message":"Booking cancelled successfully","booking_uuid":"2462937d-4a53-46f0-9b2e-7881aca1475b"}
+{"level":"info","timestamp":"2026-05-10T11:18:44.257+0530","service":"booking-service","caller":"handlers/Booking_handler.go:79","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:18:44.257+0530","service":"booking-service","caller":"services/Booking_service.go:164","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-10T11:18:44.258+0530","service":"booking-service","caller":"repository/Booking_repository.go:69","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-10T11:18:44.260+0530","service":"booking-service","caller":"repository/Booking_repository.go:92","message":"Bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-10T11:18:44.260+0530","service":"booking-service","caller":"services/Booking_service.go:182","message":"All bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-10T11:26:10.001+0530","service":"booking-service","caller":"handlers/Booking_handler.go:39","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:26:10.002+0530","service":"booking-service","caller":"services/Booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:26:10.004+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T11:26:10.005+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:26:10.005+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:26:10.006+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:26:10.008+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"1f9573a9-57a5-4e69-936b-499caeabaef3"}
+{"level":"info","timestamp":"2026-05-10T11:26:10.008+0530","service":"booking-service","caller":"services/Booking_service.go:154","message":"Booking created successfully","booking_uuid":"1f9573a9-57a5-4e69-936b-499caeabaef3"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.362+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.363+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.427+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.427+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.586+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.586+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.586+0530","service":"booking-service","caller":"services/Booking_service.go:333","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T11:34:34.586+0530","service":"booking-service","caller":"repository/Booking_repository.go:240","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.587+0530","service":"booking-service","caller":"repository/Booking_repository.go:264","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.587+0530","service":"booking-service","caller":"services/Booking_service.go:345","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.588+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:34:34.588+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T11:34:50.688+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:34:50.688+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:34:50.692+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:34:50.694+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:34:50.694+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:34:50.696+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:34:50.710+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:34:50.710+0530","service":"booking-service","caller":"services/Booking_service.go:153","message":"Booking created successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:35:41.561+0530","service":"booking-service","caller":"handlers/Booking_handler.go:96","message":"Received request to get booking","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:35:41.562+0530","service":"booking-service","caller":"services/Booking_service.go:194","message":"Fetching booking by UUID","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:35:41.562+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:35:41.565+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:35:41.566+0530","service":"booking-service","caller":"services/Booking_service.go:209","message":"Booking fetched successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:35:57.782+0530","service":"booking-service","caller":"handlers/Booking_handler.go:96","message":"Received request to get booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:57.782+0530","service":"booking-service","caller":"services/Booking_service.go:194","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:57.783+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:57.784+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:57.784+0530","service":"booking-service","caller":"services/Booking_service.go:209","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:59.111+0530","service":"booking-service","caller":"handlers/Booking_handler.go:96","message":"Received request to get booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:59.111+0530","service":"booking-service","caller":"services/Booking_service.go:194","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:59.111+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:59.113+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:35:59.113+0530","service":"booking-service","caller":"services/Booking_service.go:209","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.230+0530","service":"booking-service","caller":"handlers/Booking_handler.go:185","message":"Received request to cancel booking","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.231+0530","service":"booking-service","caller":"services/Booking_service.go:283","message":"Cancelling booking","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.231+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.233+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.233+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.242+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:03.243+0530","service":"booking-service","caller":"services/Booking_service.go:323","message":"Booking cancelled successfully","booking_uuid":"1234578910"}
+{"level":"info","timestamp":"2026-05-10T11:38:20.764+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:20.765+0530","service":"booking-service","caller":"handlers/Booking_handler.go:67","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-10T11:38:28.413+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:28.413+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:28.416+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:28.416+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:28.417+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:28.418+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:28.448+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:28.449+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:40.369+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:40.370+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:40.372+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:40.373+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:40.373+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:40.375+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:40.380+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:40.380+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:41.122+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:41.122+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:41.124+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:41.125+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:41.126+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:41.127+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:41.131+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:41.131+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:48.571+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:48.571+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:48.573+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:48.573+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:48.573+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:48.574+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:48.575+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:48.576+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.351+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.352+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.354+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.356+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:51.356+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.358+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:51.361+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:51.362+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.517+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.517+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.519+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.520+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:51.520+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.521+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:51.525+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:51.525+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.657+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.658+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.659+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.660+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:51.660+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.661+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:51.663+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:51.664+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.818+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.818+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.822+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.823+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:51.823+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.823+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:51.827+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:51.827+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.981+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.982+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.984+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:51.985+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:51.985+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:51.986+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:51.990+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:51.990+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.237+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.238+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:52.240+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.241+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:52.241+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:52.242+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:52.245+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:52.246+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.481+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.481+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:52.483+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.484+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:52.484+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:52.485+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:52.489+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:52.489+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.608+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.608+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:52.609+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:52.610+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:52.610+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:52.612+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:52.614+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:52.614+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.042+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.043+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:53.045+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.045+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:53.045+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:53.045+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:53.047+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:53.047+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.212+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.213+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:53.215+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.216+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:53.216+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:53.217+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:53.220+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:53.221+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.381+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.382+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:53.384+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-07-15"}
+{"level":"info","timestamp":"2026-05-10T11:38:53.385+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:38:53.386+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:38:53.386+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-10T11:38:53.390+0530","service":"booking-service","caller":"repository/Booking_repository.go:57","message":"Failed to create booking","error":"ERROR: duplicate key value violates unique constraint \"idx_bookings_booking_uuid\" (SQLSTATE 23505)"}
+{"level":"error","timestamp":"2026-05-10T11:38:53.390+0530","service":"booking-service","caller":"services/Booking_service.go:142","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:39:01.386+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:39:01.387+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:39:01.388+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:39:01.390+0530","service":"booking-service","caller":"repository/Booking_repository.go:163","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:39:01.390+0530","service":"booking-service","caller":"repository/Booking_repository.go:205","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:39:01.391+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:39:01.400+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"1234578911"}
+{"level":"info","timestamp":"2026-05-10T11:39:01.400+0530","service":"booking-service","caller":"services/Booking_service.go:153","message":"Booking created successfully","booking_uuid":"1234578911"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.754+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.755+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.814+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.815+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.949+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.949+0530","service":"booking-service","caller":"handlers/routes.go:71","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.949+0530","service":"booking-service","caller":"services/Booking_service.go:333","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T11:48:01.950+0530","service":"booking-service","caller":"repository/Booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.952+0530","service":"booking-service","caller":"repository/Booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.952+0530","service":"booking-service","caller":"services/Booking_service.go:345","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.952+0530","service":"booking-service","caller":"handlers/routes.go:75","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T11:48:01.952+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T11:51:41.752+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:51:41.752+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:51:41.754+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:51:41.780+0530","service":"booking-service","caller":"repository/Booking_repository.go:169","message":"Room availability checked","room_id":1,"available":false}
+{"level":"warn","timestamp":"2026-05-10T11:51:41.780+0530","service":"booking-service","caller":"services/Booking_service.go:105","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:51:52.032+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:51:52.032+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:51:52.034+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:51:52.034+0530","service":"booking-service","caller":"repository/Booking_repository.go:169","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:51:52.034+0530","service":"booking-service","caller":"repository/Booking_repository.go:211","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:51:52.035+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:51:52.037+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"1234578912"}
+{"level":"info","timestamp":"2026-05-10T11:51:52.037+0530","service":"booking-service","caller":"services/Booking_service.go:153","message":"Booking created successfully","booking_uuid":"1234578912"}
+{"level":"info","timestamp":"2026-05-10T11:52:10.191+0530","service":"booking-service","caller":"handlers/Booking_handler.go:40","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T11:52:10.191+0530","service":"booking-service","caller":"services/Booking_service.go:37","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:52:10.192+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-06-15"}
+{"level":"info","timestamp":"2026-05-10T11:52:10.192+0530","service":"booking-service","caller":"repository/Booking_repository.go:169","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T11:52:10.193+0530","service":"booking-service","caller":"repository/Booking_repository.go:211","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:52:10.193+0530","service":"booking-service","caller":"repository/Booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T11:52:10.200+0530","service":"booking-service","caller":"repository/Booking_repository.go:64","message":"Booking created successfully","booking_uuid":"1234578913"}
+{"level":"info","timestamp":"2026-05-10T11:52:10.200+0530","service":"booking-service","caller":"services/Booking_service.go:153","message":"Booking created successfully","booking_uuid":"1234578913"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.579+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.580+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.624+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.624+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.734+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.734+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.734+0530","service":"booking-service","caller":"services/Booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T12:05:30.734+0530","service":"booking-service","caller":"repository/Booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.735+0530","service":"booking-service","caller":"repository/Booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.735+0530","service":"booking-service","caller":"services/Booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.735+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T12:05:30.735+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.805+0530","service":"booking-service","caller":"handlers/Booking_handler.go:249","message":"Received request to cancel booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.806+0530","service":"booking-service","caller":"services/Booking_service.go:334","message":"Recovering booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.806+0530","service":"booking-service","caller":"repository/Booking_repository.go:97","message":"Fetching booking by UUID","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.807+0530","service":"booking-service","caller":"repository/Booking_repository.go:114","message":"Booking fetched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.807+0530","service":"booking-service","caller":"repository/Booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.809+0530","service":"booking-service","caller":"repository/Booking_repository.go:169","message":"Room availability checked","room_id":1,"available":false}
+{"level":"info","timestamp":"2026-05-10T12:06:21.809+0530","service":"booking-service","caller":"repository/Booking_repository.go:119","message":"Patching booking","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.817+0530","service":"booking-service","caller":"repository/Booking_repository.go:140","message":"Booking patched successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}
+{"level":"info","timestamp":"2026-05-10T12:06:21.817+0530","service":"booking-service","caller":"services/Booking_service.go:386","message":"Booking recovered successfully","booking_uuid":"7cc573c3-79ce-495e-9e2a-d81e3f679d4e"}

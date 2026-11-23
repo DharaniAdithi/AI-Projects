@@ -1,0 +1,448 @@
+openapi: "3.0.1"
+info:
+  version: 1.0.0
+  title: Room Booking Management System
+  description: >
+    The Booking Service provides APIs to manage room bookings for a co-working space.
+    It includes endpoints for creating, retrieving, updating, and cancelling booking records.
+
+servers:
+  - url: http://localhost:8080/api/v1
+
+paths:
+
+  /booking:
+    post:
+      summary: Create New Booking
+      description: >
+        Creates a new room booking. Validates user and room existence, checks room
+        availability for the requested time slot, and verifies employee count against room capacity.
+      operationId: createBooking
+      tags:
+        - Booking Management
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateBookingRequest'
+      responses:
+        '200':
+          description: Booking created successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/StandardResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/BookingResponse'
+        '400':
+          description: Bad request - validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerErrorResponse'
+
+  /bookings:
+    get:
+      summary: Get All Bookings
+      description: Retrieves a list of all active bookings.
+      operationId: getAllBookings
+      tags:
+        - Booking Management
+      responses:
+        '200':
+          description: Bookings retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/StandardResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/BookingListResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerErrorResponse'
+
+  /bookings/{uuid}:
+    parameters:
+      - name: uuid
+        in: path
+        description: UUID of the booking
+        required: true
+        schema:
+          type: string
+          format: uuid
+          example: "36a9446c-736d-47ad-b4b9-ec30aa0c3aee"
+
+    get:
+      summary: Get Booking by UUID
+      description: Retrieves a specific booking record by its UUID.
+      operationId: getBookingByUUID
+      tags:
+        - Booking Management
+      responses:
+        '200':
+          description: Booking retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/StandardResponse'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/BookingResponse'
+        '400':
+          description: Bad request - missing or invalid UUID
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestResponse'
+        '404':
+          description: Booking not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerErrorResponse'
+
+    patch:
+      summary: Patch Booking
+      description: >
+        Partially updates a booking record. Only fields provided in the request body will be updated.
+        Setting is_active to false cancels the booking (soft delete). Setting it back to true
+        recovers it, provided the room slot is still available.
+      operationId: patchBooking
+      tags:
+        - Booking Management
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchBookingRequest'
+      responses:
+        '200':
+          description: Booking updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StandardResponse'
+        '400':
+          description: Bad request - validation error or invalid UUID
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BadRequestResponse'
+        '404':
+          description: Booking not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InternalServerErrorResponse'
+
+components:
+  schemas:
+
+    # ── Request Schemas ──────────────────────────────────────────────────────
+
+    CreateBookingRequest:
+      type: object
+      required:
+        - user_id
+        - room_id
+        - booking_date
+        - start_time
+        - end_time
+        - number_of_employee
+        - created_by
+      properties:
+        user_id:
+          type: integer
+          minimum: 1
+          example: 1
+          description: ID of the user making the booking
+        room_id:
+          type: integer
+          minimum: 1
+          example: 2
+          description: ID of the room being booked
+        booking_date:
+          type: string
+          format: date
+          example: "2026-06-01"
+          description: Date of the booking in YYYY-MM-DD format (must be a future date)
+        start_time:
+          type: string
+          example: "10:00"
+          description: Booking start time in HH:MM format
+        end_time:
+          type: string
+          example: "12:00"
+          description: Booking end time in HH:MM format (must be after start_time)
+        number_of_employee:
+          type: integer
+          minimum: 1
+          example: 5
+          description: Number of employees attending (must not exceed room capacity)
+        created_by:
+          type: string
+          minLength: 1
+          maxLength: 100
+          example: "admin"
+          description: Username of the person creating the booking
+
+    PatchBookingRequest:
+      type: object
+      required:
+        - updated_by
+      properties:
+        booking_date:
+          type: string
+          format: date
+          example: "2026-06-10"
+          description: Updated booking date in YYYY-MM-DD format (must be a future date)
+        start_time:
+          type: string
+          example: "09:00"
+          description: Updated start time in HH:MM format
+        end_time:
+          type: string
+          example: "11:00"
+          description: Updated end time in HH:MM format (must be after start_time)
+        room_id:
+          type: integer
+          minimum: 1
+          example: 3
+          description: Updated room ID
+        number_of_employee:
+          type: integer
+          minimum: 1
+          example: 8
+          description: Updated employee count (must not exceed room capacity)
+        is_active:
+          type: boolean
+          example: false
+          description: >
+            Set false to cancel the booking (soft delete).
+            Set true to recover a previously cancelled booking.
+            Cannot set to the same state the booking is already in.
+        updated_by:
+          type: string
+          minLength: 1
+          maxLength: 100
+          example: "admin"
+          description: Username of the person updating the booking
+
+    # ── Response Schemas ─────────────────────────────────────────────────────
+
+    BookingResponse:
+      type: object
+      properties:
+        booking_uuid:
+          type: string
+          format: uuid
+          example: "3f1a2b88-91aa-4c3d-b5e6-7f8a9b0c1d2e"
+        user_id:
+          type: integer
+          example: 1
+        room_id:
+          type: integer
+          example: 2
+        booking_date:
+          type: string
+          format: date
+          example: "2026-06-01"
+        start_time:
+          type: string
+          example: "10:00"
+        end_time:
+          type: string
+          example: "12:00"
+        booking_status:
+          type: string
+          enum:
+            - Active
+            - Cancelled
+          example: "Active"
+        is_active:
+          type: boolean
+          example: true
+        created_by:
+          type: string
+          example: "admin"
+        updated_by:
+          type: string
+          example: "admin"
+        created_at:
+          type: string
+          format: date-time
+          example: "2026-05-25T10:30:00Z"
+        updated_at:
+          type: string
+          format: date-time
+          example: "2026-05-25T10:30:00Z"
+
+    BookingListResponse:
+      type: object
+      properties:
+        bookings:
+          type: array
+          items:
+            $ref: '#/components/schemas/BookingResponse'
+        total:
+          type: integer
+          example: 25
+
+    # ── Standard Response Wrappers ───────────────────────────────────────────
+
+    StandardResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: "Success"
+          description: Response status (Success / Error)
+        code:
+          type: integer
+          example: 200
+          description: HTTP status code
+        message:
+          type: string
+          example: "Booking created successfully"
+        data:
+          type: object
+          description: Response payload
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-05-25T10:30:00Z"
+
+    Error:
+      type: object
+      properties:
+        field:
+          type: string
+          example: "user_id"
+          description: Field that caused the error
+        message:
+          type: string
+          example: "user_id is required"
+        code:
+          type: string
+          example: "TRAINING_VAL_001"
+
+    BadRequestResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: "Error"
+        code:
+          type: integer
+          example: 400
+        message:
+          type: string
+          example: "Validation failed for the request"
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-05-25T10:30:00Z"
+      example:
+        status: "Error"
+        code: 400
+        message: "Validation failed for the request"
+        errors:
+          - field: "user_id"
+            message: "user_id is required"
+            code: "TRAINING_VAL_001"
+        timestamp: "2026-05-25T10:30:00Z"
+
+    NotFoundResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: "Error"
+        code:
+          type: integer
+          example: 404
+        message:
+          type: string
+          example: "Failed to fetch booking"
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-05-25T10:30:00Z"
+      example:
+        status: "Error"
+        code: 404
+        message: "Failed to fetch booking"
+        errors:
+          - field: ""
+            message: "Booking not found"
+            code: "TRAINING_REC_404"
+        timestamp: "2026-05-25T10:30:00Z"
+
+    InternalServerErrorResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: "Error"
+        code:
+          type: integer
+          example: 500
+        message:
+          type: string
+          example: "Internal server error"
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/Error'
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-05-25T10:30:00Z"
+      example:
+        status: "Error"
+        code: 500
+        message: "Internal server error"
+        errors:
+          - field: ""
+            message: "An unexpected error occurred"
+            code: "TRAINING_UNEXP_001"
+        timestamp: "2026-05-25T10:30:00Z"

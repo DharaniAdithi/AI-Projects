@@ -1,0 +1,41 @@
+{"level":"info","timestamp":"2026-05-25T13:18:46.374+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.377+0530","service":"test-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"10:00","end_time":"09:00"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.379+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.379+0530","service":"test-service","caller":"services/booking_service.go:128","message":"Number of employees exceeds room capacity","employees":100,"capacity":10}
+{"level":"info","timestamp":"2026-05-25T13:18:46.380+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.380+0530","service":"test-service","caller":"services/booking_service.go:82","message":"Invalid booking date format","booking_date":"31-12-2030"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.380+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.380+0530","service":"test-service","caller":"services/booking_service.go:94","message":"Booking date is not in the future","booking_date":"2020-01-01"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.381+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.382+0530","service":"test-service","caller":"services/booking_service.go:149","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-25T13:18:46.382+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":999}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.382+0530","service":"test-service","caller":"services/booking_service.go:70","message":"Room not found","room_id":999}
+{"level":"info","timestamp":"2026-05-25T13:18:46.383+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-25T13:18:46.383+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-25T13:18:46.383+0530","service":"test-service","caller":"services/booking_service.go:40","message":"Failed to validate user","error":"DB error"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.384+0530","service":"test-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":999,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.384+0530","service":"test-service","caller":"services/booking_service.go:49","message":"User not found","user_id":999}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:193","message":"Fetching all bookings"}
+{"level":"error","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:197","message":"Failed to fetch all bookings","error":"DB failure"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:193","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:211","message":"All bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:193","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:211","message":"All bookings fetched successfully","count":2}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:224","message":"Fetching booking by UUID","booking_uuid":"non-existent"}
+{"level":"error","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:228","message":"Failed to fetch booking","booking_uuid":"non-existent","error":"Booking not found"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.385+0530","service":"test-service","caller":"services/booking_service.go:224","message":"Fetching booking by UUID","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:239","message":"Booking fetched successfully","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:266","message":"Booking is already active","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:275","message":"Booking is already cancelled","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"non-existent"}
+{"level":"error","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:254","message":"Booking not found for patch","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.387+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.388+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.388+0530","service":"test-service","caller":"services/booking_service.go:328","message":"End time is not after start time","start_time":"09:00","end_time":"08:00"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.389+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.389+0530","service":"test-service","caller":"services/booking_service.go:351","message":"Number of employees exceeds room capacity","employees":100,"capacity":10}
+{"level":"info","timestamp":"2026-05-25T13:18:46.389+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}
+{"level":"warn","timestamp":"2026-05-25T13:18:46.389+0530","service":"test-service","caller":"services/booking_service.go:294","message":"Invalid booking date format","booking_date":"31-12-2030"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.389+0530","service":"test-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"test-uuid-001"}

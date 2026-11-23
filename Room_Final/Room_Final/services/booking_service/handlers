@@ -1,0 +1,21 @@
+mode: set
+booking_system/booking_service/internal/handlers/booking_handler.go:24.113,29.2 1 1
+booking_system/booking_service/internal/handlers/booking_handler.go:31.80,39.61 6 1
+booking_system/booking_service/internal/handlers/booking_handler.go:39.61,54.3 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:56.2,57.31 2 1
+booking_system/booking_service/internal/handlers/booking_handler.go:57.31,68.3 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:70.2,72.52 3 1
+booking_system/booking_service/internal/handlers/booking_handler.go:75.81,81.2 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:83.83,89.23 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:89.23,104.3 4 0
+booking_system/booking_service/internal/handlers/booking_handler.go:106.2,108.52 3 1
+booking_system/booking_service/internal/handlers/booking_handler.go:111.79,117.23 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:117.23,132.3 4 0
+booking_system/booking_service/internal/handlers/booking_handler.go:134.2,135.61 2 1
+booking_system/booking_service/internal/handlers/booking_handler.go:135.61,150.3 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:152.2,153.31 2 1
+booking_system/booking_service/internal/handlers/booking_handler.go:153.31,164.3 4 1
+booking_system/booking_service/internal/handlers/booking_handler.go:166.2,168.52 3 1
+booking_system/booking_service/internal/handlers/routes.go:16.99,30.85 10 1
+booking_system/booking_service/internal/handlers/routes.go:30.85,32.6 1 0
+booking_system/booking_service/internal/handlers/routes.go:33.5,37.50 2 1

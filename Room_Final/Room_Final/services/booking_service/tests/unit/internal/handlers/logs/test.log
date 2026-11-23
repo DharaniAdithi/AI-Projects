@@ -1,0 +1,378 @@
+{"level":"info","timestamp":"2026-05-25T13:18:46.394+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T13:18:46.395+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"json: cannot unmarshal string into Go struct field CreateBookingRequest.user_id of type int"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.396+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.397+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.397+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.397+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.398+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.399+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.400+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.400+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T13:18:46.400+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.400+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.401+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.401+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.237+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T14:17:35.239+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"json: cannot unmarshal string into Go struct field CreateBookingRequest.user_id of type int"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.239+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.241+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.241+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.241+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.242+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.243+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.243+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.244+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T14:17:35.244+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.244+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.244+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T14:17:35.244+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.852+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:19:35.853+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"json: cannot unmarshal string into Go struct field CreateBookingRequest.user_id of type int"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.854+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.855+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.855+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.856+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.857+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.858+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.859+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.859+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:19:35.859+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.860+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.860+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:19:35.860+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.469+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:26:48.470+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.471+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.472+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.472+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.472+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.472+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.473+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.474+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.474+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:26:48.474+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.475+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.475+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:26:48.475+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.703+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:27:25.705+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.706+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.708+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.708+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.708+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.709+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.710+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.710+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.711+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:27:25.711+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.711+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.712+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:27:25.712+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.583+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:30:47.585+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.586+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.587+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.587+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.588+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.588+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.589+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.589+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.590+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:30:47.590+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.590+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.591+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:30:47.591+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.069+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:31:27.070+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.072+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.073+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.073+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.073+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.074+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.074+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.075+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.075+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:31:27.075+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.076+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.076+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:31:27.076+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.313+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:33:59.315+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.316+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.317+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.317+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.317+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.318+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.318+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.319+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.319+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:33:59.320+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.320+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.321+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:33:59.321+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.317+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:36:27.319+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.320+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.321+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.321+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.321+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.322+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.323+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.324+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.324+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:36:27.324+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.325+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.325+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:36:27.325+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.281+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:40:11.282+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.283+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.284+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.284+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.284+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.285+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.286+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.286+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.287+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:40:11.287+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.287+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.288+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:40:11.288+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.508+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:42:19.509+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.510+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.511+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.511+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.512+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.513+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.513+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.514+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.514+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:42:19.514+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.516+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.516+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:42:19.517+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.910+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T20:44:39.912+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.913+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.913+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.914+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.914+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.914+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.915+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.915+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.916+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T20:44:39.916+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.916+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.917+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T20:44:39.917+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.036+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T21:41:49.038+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.041+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.047+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.048+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.050+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.051+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.052+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.054+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.055+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T21:41:49.055+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.056+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.058+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T21:41:49.058+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-25T21:51:40.988+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-25T21:51:40.993+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-25T21:51:40.995+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T21:51:40.997+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T21:51:40.997+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-25T21:51:40.997+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.000+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.001+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.003+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.003+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-25T21:51:41.003+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.005+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.006+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-25T21:51:41.006+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.894+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:10:47.897+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.897+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.897+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.897+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.897+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.899+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.899+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.899+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.899+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:10:47.899+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.899+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.901+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:10:47.901+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.213+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:16:37.213+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.214+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.215+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.215+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.216+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.216+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.217+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.217+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.217+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:16:37.217+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.218+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.218+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:16:37.218+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.688+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:16:59.689+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.691+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.691+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.691+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.691+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.691+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.692+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.693+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.693+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:16:59.693+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.693+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.693+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:16:59.693+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.047+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:24:52.048+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.049+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.050+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.050+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.051+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.051+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:24:52.057+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.535+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:27:49.535+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.538+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.538+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.538+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.539+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.539+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.540+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.540+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.541+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:27:49.541+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.541+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.541+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:27:49.541+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.253+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:30:02.254+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.255+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.256+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.256+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.256+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.256+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.257+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.257+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.257+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:30:02.257+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.258+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.258+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:30:02.258+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.481+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:36:36.482+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.483+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.484+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.484+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.484+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.485+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.485+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.486+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.486+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:36:36.487+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.487+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.487+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:36:36.487+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.329+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:44:08.330+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.332+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.332+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.332+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.332+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.332+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.334+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.334+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.335+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:44:08.335+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.335+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.335+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:44:08.335+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.662+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:45:17.664+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.664+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.665+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.665+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.666+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.666+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.667+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.667+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.667+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:45:17.667+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.668+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.668+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:45:17.668+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.325+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:46:10.326+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.327+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.328+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.328+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.328+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.328+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.329+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.329+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.329+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:46:10.329+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.330+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.331+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:46:10.331+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.151+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:46:55.152+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.153+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.153+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.153+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.153+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.155+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.155+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.156+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.156+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:46:55.156+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.156+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.157+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:46:55.157+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.905+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:49:18.905+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.907+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.907+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.907+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.907+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.908+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.908+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.908+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.909+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:49:18.909+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.909+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.909+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:49:18.909+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.368+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"error","timestamp":"2026-05-26T08:52:36.369+0530","service":"test-service","caller":"handlers/booking_handler.go:40","message":"Failed to decode request body","error":"invalid character 'o' in literal null (expecting 'u')"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.370+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.370+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.371+0530","service":"test-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.375+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.376+0530","service":"test-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.377+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"non-existent"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.377+0530","service":"test-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.377+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"error","timestamp":"2026-05-26T08:52:36.377+0530","service":"test-service","caller":"handlers/booking_handler.go:136","message":"Failed to decode request body","error":"invalid character 'i' looking for beginning of object key string"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.378+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.378+0530","service":"test-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"test-uuid-001"}
+{"level":"info","timestamp":"2026-05-26T08:52:36.378+0530","service":"test-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}

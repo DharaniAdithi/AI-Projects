@@ -1,0 +1,2 @@
+{"level":"info","timestamp":"2026-05-25T13:18:46.402+0530","service":"test-service","caller":"handlers/routes.go:25","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-25T13:18:46.402+0530","service":"test-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}

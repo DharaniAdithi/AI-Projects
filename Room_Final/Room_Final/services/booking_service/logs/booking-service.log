@@ -1,0 +1,450 @@
+{"level":"info","timestamp":"2026-05-07T09:17:23.789+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-07T09:17:23.789+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-07T09:17:23.858+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-07T09:17:23.858+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-07T09:17:24.068+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-07T09:17:24.070+0530","service":"booking-service","caller":"handlers/routes.go:67","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-07T09:17:24.070+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-07T09:36:55.165+0530","service":"booking-service","caller":"handlers/booking_handler.go:78","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-07T09:36:55.165+0530","service":"booking-service","caller":"services/booking_service.go:83","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T09:36:55.167+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T09:36:55.172+0530","service":"booking-service","caller":"repository/booking_repository.go:75","message":"Bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-07T09:36:55.172+0530","service":"booking-service","caller":"services/booking_service.go:101","message":"All bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-07T09:40:16.254+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-07T09:40:16.254+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-07T09:40:16.394+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-07T09:40:16.394+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-07T09:40:16.551+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-07T09:40:16.551+0530","service":"booking-service","caller":"handlers/routes.go:67","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-07T09:40:16.552+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-07T09:40:37.922+0530","service":"booking-service","caller":"handlers/booking_handler.go:38","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-07T09:40:37.922+0530","service":"booking-service","caller":"services/booking_service.go:36","message":"Creating new booking","guest_id":1,"room_id":2}
+{"level":"info","timestamp":"2026-05-07T09:40:37.922+0530","service":"booking-service","caller":"repository/booking_repository.go:39","message":"Creating new booking","guest_id":1,"room_id":2}
+{"level":"info","timestamp":"2026-05-07T09:40:37.926+0530","service":"booking-service","caller":"repository/booking_repository.go:49","message":"Booking created successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:40:37.926+0530","service":"booking-service","caller":"services/booking_service.go:73","message":"Booking created successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:41:10.771+0530","service":"booking-service","caller":"handlers/booking_handler.go:38","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-07T09:41:10.771+0530","service":"booking-service","caller":"services/booking_service.go:36","message":"Creating new booking","guest_id":1,"room_id":2}
+{"level":"info","timestamp":"2026-05-07T09:41:10.772+0530","service":"booking-service","caller":"repository/booking_repository.go:39","message":"Creating new booking","guest_id":1,"room_id":2}
+{"level":"info","timestamp":"2026-05-07T09:41:10.775+0530","service":"booking-service","caller":"repository/booking_repository.go:49","message":"Booking created successfully","booking_uuid":"2f8f132a-051e-4754-ac7c-dd1fc3c5c51a"}
+{"level":"info","timestamp":"2026-05-07T09:41:10.775+0530","service":"booking-service","caller":"services/booking_service.go:73","message":"Booking created successfully","booking_uuid":"2f8f132a-051e-4754-ac7c-dd1fc3c5c51a"}
+{"level":"info","timestamp":"2026-05-07T09:41:28.233+0530","service":"booking-service","caller":"handlers/booking_handler.go:78","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-07T09:41:28.233+0530","service":"booking-service","caller":"services/booking_service.go:83","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T09:41:28.233+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T09:41:28.235+0530","service":"booking-service","caller":"repository/booking_repository.go:75","message":"Bookings fetched successfully","count":2}
+{"level":"info","timestamp":"2026-05-07T09:41:28.235+0530","service":"booking-service","caller":"services/booking_service.go:101","message":"All bookings fetched successfully","count":2}
+{"level":"info","timestamp":"2026-05-07T09:41:57.483+0530","service":"booking-service","caller":"handlers/booking_handler.go:89","message":"Received request to get booking","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:41:57.483+0530","service":"booking-service","caller":"services/booking_service.go:114","message":"Fetching booking by UUID","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:41:57.484+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:41:57.486+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:41:57.486+0530","service":"booking-service","caller":"services/booking_service.go:129","message":"Booking fetched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.895+0530","service":"booking-service","caller":"handlers/booking_handler.go:117","message":"Received request to patch booking","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.896+0530","service":"booking-service","caller":"services/booking_service.go:139","message":"Patching booking","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.896+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.899+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.899+0530","service":"booking-service","caller":"repository/booking_repository.go:102","message":"Patching booking","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.902+0530","service":"booking-service","caller":"repository/booking_repository.go:123","message":"Booking patched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T09:43:40.903+0530","service":"booking-service","caller":"services/booking_service.go:196","message":"Booking patched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.480+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.481+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.590+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.590+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.712+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.712+0530","service":"booking-service","caller":"handlers/routes.go:67","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-07T10:12:44.712+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.219+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.220+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.333+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.333+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.457+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.457+0530","service":"booking-service","caller":"handlers/routes.go:67","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-07T12:00:29.458+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-07T12:01:20.017+0530","service":"booking-service","caller":"handlers/booking_handler.go:89","message":"Received request to get booking","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T12:01:20.017+0530","service":"booking-service","caller":"services/booking_service.go:114","message":"Fetching booking by UUID","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T12:01:20.017+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T12:01:20.020+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T12:01:20.020+0530","service":"booking-service","caller":"services/booking_service.go:129","message":"Booking fetched successfully","booking_uuid":"34ab923d-14b0-4877-b7b5-ee803e3275fc"}
+{"level":"info","timestamp":"2026-05-07T12:01:32.774+0530","service":"booking-service","caller":"handlers/booking_handler.go:78","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-07T12:01:32.776+0530","service":"booking-service","caller":"services/booking_service.go:83","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T12:01:32.776+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T12:01:32.780+0530","service":"booking-service","caller":"repository/booking_repository.go:75","message":"Bookings fetched successfully","count":2}
+{"level":"info","timestamp":"2026-05-07T12:01:32.780+0530","service":"booking-service","caller":"services/booking_service.go:101","message":"All bookings fetched successfully","count":2}
+{"level":"info","timestamp":"2026-05-07T12:02:40.193+0530","service":"booking-service","caller":"handlers/booking_handler.go:38","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-07T12:02:40.194+0530","service":"booking-service","caller":"services/booking_service.go:36","message":"Creating new booking","guest_id":2,"room_id":1}
+{"level":"info","timestamp":"2026-05-07T12:02:40.195+0530","service":"booking-service","caller":"repository/booking_repository.go:39","message":"Creating new booking","guest_id":2,"room_id":1}
+{"level":"info","timestamp":"2026-05-07T12:02:40.197+0530","service":"booking-service","caller":"repository/booking_repository.go:49","message":"Booking created successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:02:40.198+0530","service":"booking-service","caller":"services/booking_service.go:73","message":"Booking created successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:04:57.343+0530","service":"booking-service","caller":"handlers/booking_handler.go:117","message":"Received request to patch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:04:57.344+0530","service":"booking-service","caller":"handlers/booking_handler.go:156","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.094+0530","service":"booking-service","caller":"handlers/booking_handler.go:117","message":"Received request to patch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.095+0530","service":"booking-service","caller":"services/booking_service.go:139","message":"Patching booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.096+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.097+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.098+0530","service":"booking-service","caller":"repository/booking_repository.go:102","message":"Patching booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.105+0530","service":"booking-service","caller":"repository/booking_repository.go:123","message":"Booking patched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T12:05:12.105+0530","service":"booking-service","caller":"services/booking_service.go:196","message":"Booking patched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T18:50:30.710+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-07T18:50:30.710+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-07T18:50:30.849+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-07T18:50:30.850+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-07T18:50:31.035+0530","service":"booking-service","caller":"database/migration.go:22","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-07T18:50:31.035+0530","service":"booking-service","caller":"handlers/routes.go:67","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-07T18:50:31.035+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-07T18:51:07.717+0530","service":"booking-service","caller":"handlers/booking_handler.go:78","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-07T18:51:07.717+0530","service":"booking-service","caller":"services/booking_service.go:83","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T18:51:07.717+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-07T18:51:07.719+0530","service":"booking-service","caller":"repository/booking_repository.go:75","message":"Bookings fetched successfully","count":3}
+{"level":"info","timestamp":"2026-05-07T18:51:07.719+0530","service":"booking-service","caller":"services/booking_service.go:101","message":"All bookings fetched successfully","count":3}
+{"level":"info","timestamp":"2026-05-07T18:54:01.046+0530","service":"booking-service","caller":"handlers/booking_handler.go:89","message":"Received request to get booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff"}
+{"level":"info","timestamp":"2026-05-07T18:54:01.047+0530","service":"booking-service","caller":"services/booking_service.go:114","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff"}
+{"level":"info","timestamp":"2026-05-07T18:54:01.048+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff"}
+{"level":"error","timestamp":"2026-05-07T18:54:01.050+0530","service":"booking-service","caller":"repository/booking_repository.go:84","message":"Failed to fetch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff","error":"record not found"}
+{"level":"error","timestamp":"2026-05-07T18:54:01.050+0530","service":"booking-service","caller":"services/booking_service.go:118","message":"Failed to fetch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff","error":"Booking not found"}
+{"level":"info","timestamp":"2026-05-07T19:10:23.969+0530","service":"booking-service","caller":"handlers/booking_handler.go:117","message":"Received request to patch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"error","timestamp":"2026-05-07T19:10:23.969+0530","service":"booking-service","caller":"handlers/booking_handler.go:138","message":"Failed to decode request body","error":"EOF"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.811+0530","service":"booking-service","caller":"handlers/booking_handler.go:117","message":"Received request to patch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.811+0530","service":"booking-service","caller":"services/booking_service.go:139","message":"Patching booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.811+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.813+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.813+0530","service":"booking-service","caller":"repository/booking_repository.go:102","message":"Patching booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.822+0530","service":"booking-service","caller":"repository/booking_repository.go:123","message":"Booking patched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:10:52.822+0530","service":"booking-service","caller":"services/booking_service.go:196","message":"Booking patched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:11:08.657+0530","service":"booking-service","caller":"handlers/booking_handler.go:89","message":"Received request to get booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:11:08.657+0530","service":"booking-service","caller":"services/booking_service.go:114","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:11:08.657+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:11:08.660+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:11:08.660+0530","service":"booking-service","caller":"services/booking_service.go:129","message":"Booking fetched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.756+0530","service":"booking-service","caller":"handlers/booking_handler.go:117","message":"Received request to patch booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.756+0530","service":"booking-service","caller":"services/booking_service.go:139","message":"Patching booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.757+0530","service":"booking-service","caller":"repository/booking_repository.go:80","message":"Fetching booking by UUID","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.758+0530","service":"booking-service","caller":"repository/booking_repository.go:97","message":"Booking fetched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.758+0530","service":"booking-service","caller":"repository/booking_repository.go:102","message":"Patching booking","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.760+0530","service":"booking-service","caller":"repository/booking_repository.go:123","message":"Booking patched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-07T19:24:12.761+0530","service":"booking-service","caller":"services/booking_service.go:196","message":"Booking patched successfully","booking_uuid":"6f8f0bc6-2993-4b93-a726-db1e23fd7ff1"}
+{"level":"info","timestamp":"2026-05-10T17:56:38.834+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-10T17:56:38.836+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-10T17:56:38.930+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-10T17:56:38.930+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.189+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.189+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.189+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-10T17:56:39.189+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.214+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.215+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.215+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-10T17:56:39.215+0530","service":"booking-service","caller":"server/server.go:83","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-10T18:15:17.281+0530","service":"booking-service","caller":"handlers/booking_handler.go:41","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-10T18:15:17.282+0530","service":"booking-service","caller":"services/booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T18:15:17.285+0530","service":"booking-service","caller":"repository/booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-10T18:15:17.294+0530","service":"booking-service","caller":"repository/booking_repository.go:169","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-10T18:15:17.295+0530","service":"booking-service","caller":"repository/booking_repository.go:211","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-10T18:15:17.296+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-10T18:15:17.300+0530","service":"booking-service","caller":"repository/booking_repository.go:64","message":"Booking created successfully","booking_uuid":"5da489c3-cafc-44e1-85c2-fac6f19a5bec"}
+{"level":"info","timestamp":"2026-05-10T18:15:17.300+0530","service":"booking-service","caller":"services/booking_service.go:154","message":"Booking created successfully","booking_uuid":"5da489c3-cafc-44e1-85c2-fac6f19a5bec"}
+{"level":"info","timestamp":"2026-05-11T14:01:57.783+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:01:57.784+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:01:57.912+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:01:57.912+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.280+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.280+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.281+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:01:58.281+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.283+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.283+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.284+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:01:58.285+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"fatal","timestamp":"2026-05-11T14:01:58.287+0530","service":"booking-service","caller":"server/main.go:27","message":"Failed to start server","error":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"info","timestamp":"2026-05-11T14:02:13.790+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.790+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.877+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.877+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.985+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.986+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.987+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:02:13.987+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.995+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.995+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.995+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:02:13.995+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"fatal","timestamp":"2026-05-11T14:02:13.996+0530","service":"booking-service","caller":"server/main.go:27","message":"Failed to start server","error":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"info","timestamp":"2026-05-11T14:03:49.562+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.563+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.636+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.637+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.758+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.759+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.759+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:03:49.759+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.761+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.761+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.761+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:03:49.761+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"fatal","timestamp":"2026-05-11T14:03:49.763+0530","service":"booking-service","caller":"server/main.go:27","message":"Failed to start server","error":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"info","timestamp":"2026-05-11T14:04:57.471+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.471+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.544+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.544+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.673+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.673+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.673+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:04:57.674+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.675+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.675+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.675+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:04:57.675+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"fatal","timestamp":"2026-05-11T14:04:57.676+0530","service":"booking-service","caller":"server/main.go:27","message":"Failed to start server","error":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"info","timestamp":"2026-05-11T14:05:27.198+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.198+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.264+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.265+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.378+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.378+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.379+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:05:27.379+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.380+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.380+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.380+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:05:27.381+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"fatal","timestamp":"2026-05-11T14:05:27.382+0530","service":"booking-service","caller":"server/main.go:27","message":"Failed to start server","error":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"info","timestamp":"2026-05-11T14:06:34.693+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.693+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.764+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.764+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.879+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.879+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.880+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:06:34.880+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.882+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.883+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.883+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:06:34.883+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"fatal","timestamp":"2026-05-11T14:06:34.884+0530","service":"booking-service","caller":"server/main.go:27","message":"Failed to start server","error":"listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"info","timestamp":"2026-05-11T14:07:29.806+0530","service":"booking-service","caller":"server/server.go:37","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.806+0530","service":"booking-service","caller":"server/server.go:41","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.868+0530","service":"booking-service","caller":"server/server.go:48","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.868+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.987+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.987+0530","service":"booking-service","caller":"handlers/routes.go:72","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.988+0530","service":"booking-service","caller":"services/booking_service.go:396","message":"Seeding users and rooms","users_count":2,"rooms_count":3}
+{"level":"info","timestamp":"2026-05-11T14:07:29.988+0530","service":"booking-service","caller":"repository/booking_repository.go:246","message":"Seeding users and rooms"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.991+0530","service":"booking-service","caller":"repository/booking_repository.go:270","message":"Users and rooms seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.991+0530","service":"booking-service","caller":"services/booking_service.go:408","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.992+0530","service":"booking-service","caller":"handlers/routes.go:76","message":"Data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T14:07:29.992+0530","service":"booking-service","caller":"server/server.go:78","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-11T14:08:07.952+0530","service":"booking-service","caller":"handlers/booking_handler.go:41","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T14:08:07.953+0530","service":"booking-service","caller":"services/booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:08:07.955+0530","service":"booking-service","caller":"repository/booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T14:08:07.959+0530","service":"booking-service","caller":"repository/booking_repository.go:169","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T14:08:07.959+0530","service":"booking-service","caller":"repository/booking_repository.go:211","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:08:07.961+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:08:07.969+0530","service":"booking-service","caller":"repository/booking_repository.go:64","message":"Booking created successfully","booking_uuid":"d53abea8-92dd-4577-9752-59602ba1e19d"}
+{"level":"info","timestamp":"2026-05-11T14:08:07.970+0530","service":"booking-service","caller":"services/booking_service.go:154","message":"Booking created successfully","booking_uuid":"d53abea8-92dd-4577-9752-59602ba1e19d"}
+{"level":"info","timestamp":"2026-05-11T14:08:45.570+0530","service":"booking-service","caller":"handlers/booking_handler.go:41","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T14:08:45.571+0530","service":"booking-service","caller":"services/booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:08:45.573+0530","service":"booking-service","caller":"repository/booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T14:08:45.573+0530","service":"booking-service","caller":"repository/booking_repository.go:169","message":"Room availability checked","room_id":1,"available":false}
+{"level":"warn","timestamp":"2026-05-11T14:08:45.574+0530","service":"booking-service","caller":"services/booking_service.go:106","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:11:02.836+0530","service":"booking-service","caller":"handlers/booking_handler.go:41","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T14:11:02.836+0530","service":"booking-service","caller":"services/booking_service.go:38","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:11:02.838+0530","service":"booking-service","caller":"repository/booking_repository.go:147","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T14:11:02.839+0530","service":"booking-service","caller":"repository/booking_repository.go:169","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T14:11:02.839+0530","service":"booking-service","caller":"repository/booking_repository.go:211","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:11:02.841+0530","service":"booking-service","caller":"repository/booking_repository.go:54","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T14:11:02.847+0530","service":"booking-service","caller":"repository/booking_repository.go:64","message":"Booking created successfully","booking_uuid":"fe006ca7-0b13-4a64-b5d5-eed499a22f5c"}
+{"level":"info","timestamp":"2026-05-11T14:11:02.848+0530","service":"booking-service","caller":"services/booking_service.go:154","message":"Booking created successfully","booking_uuid":"fe006ca7-0b13-4a64-b5d5-eed499a22f5c"}
+{"level":"info","timestamp":"2026-05-11T16:05:54.999+0530","service":"booking-service","caller":"server/server.go:36","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T16:05:55.001+0530","service":"booking-service","caller":"server/server.go:39","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T16:05:55.135+0530","service":"booking-service","caller":"server/server.go:46","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T16:05:55.135+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"error","timestamp":"2026-05-11T16:05:55.578+0530","service":"booking-service","caller":"database/migration.go:20","message":"Failed to run auto migration","error":"ERROR: column \"number_of_employee\" of relation \"bookings\" contains null values (SQLSTATE 23502)"}
+{"level":"error","timestamp":"2026-05-11T16:05:55.578+0530","service":"booking-service","caller":"server/server.go:49","message":"Failed to run database migrations","error":"ERROR: column \"number_of_employee\" of relation \"bookings\" contains null values (SQLSTATE 23502)"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.346+0530","service":"booking-service","caller":"server/server.go:35","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.348+0530","service":"booking-service","caller":"server/server.go:38","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.417+0530","service":"booking-service","caller":"server/server.go:45","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.417+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.527+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.527+0530","service":"booking-service","caller":"database/seeder.go:11","message":"Seeding initial data"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.529+0530","service":"booking-service","caller":"database/seeder.go:36","message":"Initial data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.529+0530","service":"booking-service","caller":"handlers/routes.go:25","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T16:48:32.529+0530","service":"booking-service","caller":"server/server.go:74","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-11T16:57:59.741+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T16:57:59.742+0530","service":"booking-service","caller":"handlers/booking_handler.go:58","message":"Validation failed for create booking request"}
+{"level":"info","timestamp":"2026-05-11T16:58:28.100+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T16:58:28.100+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T16:58:28.103+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"8:00","end_time":"6:00"}
+{"level":"info","timestamp":"2026-05-11T16:58:51.743+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T16:58:51.744+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T16:58:51.746+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"8:00","end_time":"20:00"}
+{"level":"info","timestamp":"2026-05-11T16:59:06.136+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T16:59:06.137+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T16:59:06.139+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"8:00","end_time":"10:00"}
+{"level":"info","timestamp":"2026-05-11T17:00:29.106+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:00:29.106+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:00:29.107+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"8:00","end_time":"12:00"}
+{"level":"info","timestamp":"2026-05-11T17:02:42.829+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:02:42.831+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:02:42.832+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"8:00:00","end_time":"12:00:00"}
+{"level":"info","timestamp":"2026-05-11T17:02:48.519+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:02:48.521+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:02:48.522+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"8:00:00","end_time":"12:00:00"}
+{"level":"info","timestamp":"2026-05-11T17:03:06.607+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:03:06.608+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:03:06.610+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:03:06.611+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T17:03:06.614+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":false}
+{"level":"warn","timestamp":"2026-05-11T17:03:06.617+0530","service":"booking-service","caller":"services/booking_service.go:149","message":"Room not available","room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:03:54.482+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:03:54.488+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:03:54.490+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:03:54.490+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T17:03:54.491+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T17:03:54.491+0530","service":"booking-service","caller":"repository/booking_repository.go:48","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-11T17:03:54.498+0530","service":"booking-service","caller":"repository/booking_repository.go:51","message":"Failed to create booking","error":"ERROR: null value in column \"price_per_day\" of relation \"bookings\" violates not-null constraint (SQLSTATE 23502)"}
+{"level":"error","timestamp":"2026-05-11T17:03:54.498+0530","service":"booking-service","caller":"services/booking_service.go:172","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:28:00.794+0530","service":"booking-service","caller":"server/server.go:35","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T17:28:00.797+0530","service":"booking-service","caller":"server/server.go:38","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T17:28:00.912+0530","service":"booking-service","caller":"server/server.go:45","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T17:28:00.913+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T17:28:01.163+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T17:28:01.163+0530","service":"booking-service","caller":"database/seeder.go:11","message":"Seeding initial data"}
+{"level":"info","timestamp":"2026-05-11T17:28:01.166+0530","service":"booking-service","caller":"database/seeder.go:36","message":"Initial data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T17:28:01.169+0530","service":"booking-service","caller":"handlers/routes.go:25","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T17:28:01.170+0530","service":"booking-service","caller":"server/server.go:74","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-11T17:28:28.360+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:28:28.361+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:28:28.363+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:28:28.364+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T17:28:28.366+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T17:28:28.366+0530","service":"booking-service","caller":"repository/booking_repository.go:48","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"error","timestamp":"2026-05-11T17:28:28.386+0530","service":"booking-service","caller":"repository/booking_repository.go:51","message":"Failed to create booking","error":"ERROR: null value in column \"price_per_day\" of relation \"bookings\" violates not-null constraint (SQLSTATE 23502)"}
+{"level":"error","timestamp":"2026-05-11T17:28:28.387+0530","service":"booking-service","caller":"services/booking_service.go:172","message":"Failed to create booking","error":"Failed to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.126+0530","service":"booking-service","caller":"server/server.go:35","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.127+0530","service":"booking-service","caller":"server/server.go:38","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.331+0530","service":"booking-service","caller":"server/server.go:45","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.331+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.482+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.482+0530","service":"booking-service","caller":"database/seeder.go:11","message":"Seeding initial data"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.496+0530","service":"booking-service","caller":"database/seeder.go:36","message":"Initial data seeded successfully"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.496+0530","service":"booking-service","caller":"handlers/routes.go:25","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-11T17:33:15.496+0530","service":"booking-service","caller":"server/server.go:74","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-11T17:33:26.319+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:33:26.320+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:33:26.322+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:33:26.322+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-15"}
+{"level":"info","timestamp":"2026-05-11T17:33:26.327+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T17:33:26.327+0530","service":"booking-service","caller":"repository/booking_repository.go:48","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:33:26.335+0530","service":"booking-service","caller":"repository/booking_repository.go:58","message":"Booking created successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T17:33:26.336+0530","service":"booking-service","caller":"services/booking_service.go:183","message":"Booking created successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T17:33:55.142+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:33:55.147+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:33:55.149+0530","service":"booking-service","caller":"services/booking_service.go:105","message":"End time is not after start time","start_time":"11:00:00","end_time":"09:00:00"}
+{"level":"info","timestamp":"2026-05-11T17:34:21.743+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:34:21.746+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":1,"room_id":1}
+{"level":"info","timestamp":"2026-05-11T17:34:21.748+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:34:21.749+0530","service":"booking-service","caller":"services/booking_service.go:128","message":"Number of employees exceeds room capacity","employees":100,"capacity":10}
+{"level":"info","timestamp":"2026-05-11T17:34:41.948+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:34:41.948+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":2,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:34:41.949+0530","service":"booking-service","caller":"services/booking_service.go:94","message":"Booking date is not in the future","booking_date":"2024-05-15"}
+{"level":"info","timestamp":"2026-05-11T17:35:06.711+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-11T17:35:06.711+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":999,"room_id":1}
+{"level":"warn","timestamp":"2026-05-11T17:35:06.712+0530","service":"booking-service","caller":"services/booking_service.go:49","message":"User not found","user_id":999}
+{"level":"info","timestamp":"2026-05-11T18:26:02.488+0530","service":"booking-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-11T18:26:02.491+0530","service":"booking-service","caller":"services/booking_service.go:193","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-11T18:26:02.493+0530","service":"booking-service","caller":"repository/booking_repository.go:63","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-11T18:26:02.538+0530","service":"booking-service","caller":"repository/booking_repository.go:84","message":"Bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-11T18:26:02.538+0530","service":"booking-service","caller":"services/booking_service.go:211","message":"All bookings fetched successfully","count":1}
+{"level":"info","timestamp":"2026-05-11T18:29:49.691+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:29:49.696+0530","service":"booking-service","caller":"handlers/booking_handler.go:154","message":"Validation failed for patch booking request"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.634+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.639+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.645+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.651+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.731+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T18:30:19.740+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-16"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.797+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T18:30:19.797+0530","service":"booking-service","caller":"repository/booking_repository.go:111","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.806+0530","service":"booking-service","caller":"repository/booking_repository.go:132","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:19.806+0530","service":"booking-service","caller":"services/booking_service.go:423","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.837+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.838+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.838+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.839+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.839+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"info","timestamp":"2026-05-11T18:30:35.839+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-16"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.840+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T18:30:35.840+0530","service":"booking-service","caller":"repository/booking_repository.go:111","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.844+0530","service":"booking-service","caller":"repository/booking_repository.go:132","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:35.845+0530","service":"booking-service","caller":"services/booking_service.go:423","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:45.760+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:45.760+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:45.760+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:45.761+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:30:45.761+0530","service":"booking-service","caller":"repository/booking_repository.go:200","message":"Fetching room by ID","room_id":1}
+{"level":"warn","timestamp":"2026-05-11T18:30:45.762+0530","service":"booking-service","caller":"services/booking_service.go:351","message":"Number of employees exceeds room capacity","employees":100,"capacity":10}
+{"level":"info","timestamp":"2026-05-11T18:32:33.493+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:32:33.500+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:32:33.501+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:32:33.505+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:32:33.505+0530","service":"booking-service","caller":"repository/booking_repository.go:111","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:32:33.507+0530","service":"booking-service","caller":"repository/booking_repository.go:132","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:32:33.508+0530","service":"booking-service","caller":"services/booking_service.go:423","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.610+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.610+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.610+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.611+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.611+0530","service":"booking-service","caller":"repository/booking_repository.go:137","message":"Checking room availability","room_id":1,"booking_date":"2026-05-16"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.612+0530","service":"booking-service","caller":"repository/booking_repository.go:158","message":"Room availability checked","room_id":1,"available":true}
+{"level":"info","timestamp":"2026-05-11T18:33:04.612+0530","service":"booking-service","caller":"repository/booking_repository.go:111","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.618+0530","service":"booking-service","caller":"repository/booking_repository.go:132","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:33:04.625+0530","service":"booking-service","caller":"services/booking_service.go:423","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.144+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.145+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.145+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.146+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.146+0530","service":"booking-service","caller":"repository/booking_repository.go:111","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.148+0530","service":"booking-service","caller":"repository/booking_repository.go:132","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-11T18:34:09.148+0530","service":"booking-service","caller":"services/booking_service.go:423","message":"Booking patched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.607+0530","service":"booking-service","caller":"server/server.go:35","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.608+0530","service":"booking-service","caller":"server/server.go:38","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.673+0530","service":"booking-service","caller":"server/server.go:45","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.673+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.779+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.779+0530","service":"booking-service","caller":"database/seeder.go:11","message":"Seeding initial data"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.781+0530","service":"booking-service","caller":"database/seeder.go:36","message":"Initial data seeded successfully"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.782+0530","service":"booking-service","caller":"handlers/routes.go:37","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-25T15:18:26.782+0530","service":"booking-service","caller":"server/server.go:74","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.540+0530","service":"booking-service","caller":"server/server.go:35","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.542+0530","service":"booking-service","caller":"server/server.go:38","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.617+0530","service":"booking-service","caller":"server/server.go:45","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.617+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.749+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.749+0530","service":"booking-service","caller":"database/seeder.go:11","message":"Seeding initial data"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.753+0530","service":"booking-service","caller":"database/seeder.go:36","message":"Initial data seeded successfully"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.754+0530","service":"booking-service","caller":"handlers/routes.go:37","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-25T15:36:19.754+0530","service":"booking-service","caller":"server/server.go:74","message":"Starting HTTP server","port":"8080"}
+{"level":"info","timestamp":"2026-05-25T15:37:35.124+0530","service":"booking-service","caller":"handlers/booking_handler.go:32","message":"Received request to create booking"}
+{"level":"info","timestamp":"2026-05-25T15:37:35.125+0530","service":"booking-service","caller":"services/booking_service.go:35","message":"Creating new booking","user_id":999,"room_id":1}
+{"level":"warn","timestamp":"2026-05-25T15:37:35.129+0530","service":"booking-service","caller":"services/booking_service.go:49","message":"User not found","user_id":999}
+{"level":"info","timestamp":"2026-05-25T15:39:05.276+0530","service":"booking-service","caller":"handlers/booking_handler.go:76","message":"Received request to get all bookings"}
+{"level":"info","timestamp":"2026-05-25T15:39:05.277+0530","service":"booking-service","caller":"services/booking_service.go:193","message":"Fetching all bookings"}
+{"level":"info","timestamp":"2026-05-25T15:39:05.277+0530","service":"booking-service","caller":"repository/booking_repository.go:63","message":"Fetching all active bookings"}
+{"level":"info","timestamp":"2026-05-25T15:39:05.278+0530","service":"booking-service","caller":"repository/booking_repository.go:84","message":"Bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-25T15:39:05.279+0530","service":"booking-service","caller":"services/booking_service.go:211","message":"All bookings fetched successfully","count":0}
+{"level":"info","timestamp":"2026-05-25T15:49:34.583+0530","service":"booking-service","caller":"handlers/booking_handler.go:87","message":"Received request to get booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:49:34.583+0530","service":"booking-service","caller":"services/booking_service.go:224","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:49:34.583+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:49:34.588+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:49:34.589+0530","service":"booking-service","caller":"services/booking_service.go:239","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:50:22.868+0530","service":"booking-service","caller":"handlers/booking_handler.go:115","message":"Received request to patch booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:50:22.868+0530","service":"booking-service","caller":"services/booking_service.go:249","message":"Patching booking","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:50:22.869+0530","service":"booking-service","caller":"repository/booking_repository.go:89","message":"Fetching booking by UUID","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T15:50:22.870+0530","service":"booking-service","caller":"repository/booking_repository.go:106","message":"Booking fetched successfully","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"warn","timestamp":"2026-05-25T15:50:22.870+0530","service":"booking-service","caller":"services/booking_service.go:275","message":"Booking is already cancelled","booking_uuid":"36a9446c-736d-47ad-b4b9-ec30aa0c3aee"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.529+0530","service":"booking-service","caller":"server/server.go:35","message":"Logger initialized"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.531+0530","service":"booking-service","caller":"server/server.go:38","message":"Initializing database connection"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.609+0530","service":"booking-service","caller":"server/server.go:45","message":"Database connection established successfully"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.609+0530","service":"booking-service","caller":"database/migration.go:11","message":"Starting auto migration for database tables"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.817+0530","service":"booking-service","caller":"database/migration.go:24","message":"Auto migration completed successfully"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.817+0530","service":"booking-service","caller":"database/seeder.go:11","message":"Seeding initial data"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.819+0530","service":"booking-service","caller":"database/seeder.go:36","message":"Initial data seeded successfully"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.819+0530","service":"booking-service","caller":"handlers/routes.go:37","message":"Routes configured successfully"}
+{"level":"info","timestamp":"2026-05-25T20:19:15.819+0530","service":"booking-service","caller":"server/server.go:74","message":"Starting HTTP server","port":"8080"}
